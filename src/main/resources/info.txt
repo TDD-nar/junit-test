@@ -1,0 +1,23 @@
+- Assert Classes
+assertEquals
+
+assertFalse
+assertTrue
+
+assertNull
+assertNotNull
+
+assertSame(object1, object2)
+assertNotSame(object1, object2)
+
+assertArrayEquals(expectedArray, resultArray);
+
+fail()
+
+
+---------Annotation
+@Test
+@Before - Annotating a public void method with @Before causes that method to be run before each Test method.
+@After - Annotating a public void method with @After causes that method to be run after the Test method.
+@BeforeClass - Annotating a public static void method with @BeforeClass causes it to be run once before any of the test methods in the class.
+@AfterClass - The Ignore annotation is used to ignore the test and that test will not be executed.
